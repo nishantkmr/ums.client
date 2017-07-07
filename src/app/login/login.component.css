@@ -1,0 +1,27 @@
+.loginWrapper {
+	text-align: center;
+}
+
+.btnWrapper {
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#signInGoogleBtn {
+	background-image: url("/assets/google_signin_buttons/web/1x/btn_google_signin_light_normal_web.png");
+	width: 191px;
+	height: 46px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#signInGoogleBtn:hover {
+	background-image: url("/assets/google_signin_buttons/web/1x/btn_google_signin_light_focus_web.png");
+}
